@@ -1,0 +1,251 @@
+
+                             /* INDEX.HTML*/
+    
+.page-home {
+  background-color: black;
+  color: #00F901;
+  font-family: 'Courier New', monospace; 
+  overflow-x: hidden; 
+  cursor: url('./toxic_cursor.png'), auto;
+}
+
+.page-home  nav {
+  width: 227px;
+  position: fixed; left: 0; top: 0; height: 100%;
+  border-right: 5px solid #00F901;
+  background: #000;
+  padding: 20px;
+}
+   
+.page-home main {
+  margin-left: 250px;
+}
+
+.page-home a {
+  transition: 0.4s;
+  color: #00F901;
+  text-decoration: none;
+  text-shadow: 4px 3px 2px #0a27e0;
+}
+
+.page-home a:hover {
+  color:#ff0000;
+  text-decoration: none; 
+  text-shadow: 4px 3px 2px #bb4d4d;
+  cursor: url('./biohazard_cursor.png'), auto;
+
+}
+    
+.page-home header {
+  margin-left: 260px;
+  text-align: center;
+}
+
+.BioImg {
+  transform: scale();
+}
+
+.page-home #header_h1{
+  font-size: 65px;
+  text-shadow: 6px 6px 4px #0a27e0;
+}
+
+.page-home hr {
+  background-color: #00F901;
+  padding: 2px;
+  color: #00F901;
+}
+     
+.page-home .footer_h3 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 3px 2px #0a27e0;
+}
+
+.page-home .footer {
+  margin-left: 262px; 
+}
+.page-home h6 {
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 6px 6px 4px #0a27e0;
+}
+
+                         /* MUSIC.HTML*/
+
+.page-music {
+  background-color: black;
+  color: #00F901;
+  font-family: 'Courier New', monospace; 
+  overflow-x: hidden; 
+  cursor: url('./toxic_cursor.png'), auto;
+}
+
+.page-music header {
+  text-align: center;
+}
+
+.page-music #header_h1{
+  font-size: 55px;
+  text-shadow: 6px 6px 4px #0a27e0;
+}
+
+.band-list {
+  display: flex;
+  gap: 15px; /* Расстояние между ними */
+  flex-wrap: wrap; /* Чтобы переносились, если не влезут */
+  text-shadow: 4px 3px 2px #0a27e0;
+}
+  
+.band-card {
+  border: 1px solid #00f901; /*зеленая рамка */
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.band-card:hover {
+  transform: scale(1.05);
+    
+  cursor: url('./biohazard_cursor.png'), auto;
+  color:#ff0000;
+  text-decoration: none; 
+  text-shadow: 0px 2px 5px #bb4d4d;
+  transition: 0.3s;
+
+  /* Включаем "лампу" - зеленое свечение */
+  box-shadow: 0 0 15px #00f901;
+}
+
+
+.band-card img {
+  width: 100%; /* Чтобы картинка не вылезала */
+  height: auto;
+}
+
+
+                              /* Bio-Lab */
+
+.page-Bio-Lab {
+  background-color: black;
+  color: #00F901;
+  font-family: 'Courier New', monospace; 
+  overflow-x: hidden; 
+  cursor: url('./toxic_cursor.png'), auto;
+}
+
+.page-Bio-Lab header {
+  text-align: center;
+}
+
+.page-Bio-Lab #header_h1 {
+  font-size: 55px;
+  text-shadow: 6px 6px 4px #0a27e0;
+}
+
+.page-Bio-Lab .toxicBio {
+  animation: shake 3s linear infinite;
+}
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+@keyframes backgrounds {
+  0% { background-color: #830000}
+  25% { background-color: #cac002; }
+  50% { background-color: #41c405; }
+  75% { background-color: #c4ae05; }
+  100% { background-color: #830000; }
+}
+
+.page-Bio-Lab #footer {
+  padding: 50px;
+  animation: backgrounds 4s infinite;
+}
+
+.page-Bio-Lab h6 {
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 6px 6px 4px #0a27e0;
+}
+
+                    /*MY_NAME*/
+
+.page-myName {
+  background-color: black;
+  color: #00F901;
+  font-family: 'Courier New', monospace; 
+  overflow-x: hidden; 
+  cursor: url('./toxic_cursor.png'), auto;
+}
+
+.page-myName header{
+  text-align: center;
+}
+.page-myName #header_h1{
+  font-size: 55px;
+  text-shadow: 6px 6px 4px #0a27e0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;  
+  text-shadow: 4px 3px 2px #0a27e0;       
+}
+
+.card {
+  display: flex;
+  flex-direction: row ; 
+  gap: 20px; 
+  border: 1px solid #00f901;
+  padding: 10px;
+  width: 500px;
+  height: auto;   
+  border-radius: 15px;  
+  align-items: flex-start;
+}
+.card:hover {
+  transform: scale(1.02);
+    
+  cursor: url('./biohazard_cursor.png'), auto;
+  color:#ff0000;
+  text-decoration: none; 
+  text-shadow: 0px 2px 5px #bb4d4d;
+  transition: 0.4s;
+  border: 1px solid #f90000;
+
+  /* Включаем "лампу" - зеленое свечение */
+  box-shadow: 0 0 15px #f90000;
+}
+
+.card img {
+  width: 250px;
+  height: 250px; 
+  object-fit: cover;
+  flex-shrink: 0; 
+  -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);
+}
+.card h2 {
+  margin-bottom: 5px; 
+  margin-top: 0;     
+  line-height: 1.2;  
+}
+.card p {
+  margin: 3px 0;      
+  line-height: 1.4; 
+}
+.card .pop {
+  margin-left: -14px;   
+  margin-top: 1px;
+}
+.card ul {
+  margin-top: 10px;   
+  margin-bottom: 0;
+  padding-left: 14px; 
+}
+.card li {
+  margin-bottom: 2px;
+}
+
