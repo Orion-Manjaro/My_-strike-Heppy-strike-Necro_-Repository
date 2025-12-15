@@ -71,6 +71,12 @@
   text-shadow: 6px 6px 4px #0a27e0;
 }
 
+.page-home ul {
+  display: list-item;
+  width: 250px;
+  border: 2px solid rgb(0, 255, 21);
+}
+
                          /* MUSIC.HTML*/
 
 .page-music {
